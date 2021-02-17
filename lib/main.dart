@@ -217,7 +217,7 @@ class _wespivoltState extends State<wespivolt> {
                 height: 30,
                 child: TextField(
                   decoration: InputDecoration(
-                      labelText: "Bottome Hole Temp. (F)",
+                      labelText: "Bottom Hole Temp. (F)",
                       labelStyle: TextStyle(fontSize: 18, color: Colors.white),
                       hintText: "Masukkan Bottom Hole Temp. (F)",
                       hintStyle: TextStyle(fontSize: 12, color: Colors.white),
@@ -331,6 +331,10 @@ class _wespivoltState extends State<wespivolt> {
                   ),
                 ),
               ),
+              Divider(
+                height: 10.0,
+                color: Colors.grey,
+              ),
               Text("VSD Setting", style: TextStyle(color: Colors.white)),
               Divider(
                 height: 5.0,
@@ -399,13 +403,13 @@ class _wespivoltState extends State<wespivolt> {
               ),
 //footter
               Divider(
-                height: 10.0,
+                height: 70.0,
                 color: Colors.grey,
               ),
 
               Center(
                 child: Text(
-                  "WespiVolt Version 0.1 - Copyright @2021",
+                  "WespiVolt Version 1.0.0 - Copyright @2021",
                   style: TextStyle(color: Colors.white, fontSize: 9),
                 ),
               ),
