@@ -1,6 +1,5 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
-//import 'dart:async';
-//import 'package:intl/intl.dart';
 
 void main() => runApp(MaterialApp(
       home: wespivolt(),
@@ -82,7 +81,7 @@ class _wespivoltState extends State<wespivolt> {
       backgroundColor: Colors.blueGrey,
       appBar: AppBar(
         title: Text(
-          'WespiVolt 0.1',
+          'WespiVolt',
           style: TextStyle(fontSize: 18),
         ),
         centerTitle: true,
