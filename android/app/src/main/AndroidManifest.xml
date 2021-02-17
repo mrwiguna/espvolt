@@ -8,7 +8,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="wespivolt"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/wespi_volt">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
